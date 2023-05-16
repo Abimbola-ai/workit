@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Manrope;
+    src: url(/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    width: 940px;
+    margin: 0px auto;
+   
+}
+
+.header {
+    width: 940px;
+    height: 500px;
+    background-color: #24053E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    background-image: url(/images/bg-pattern-1.svg), url(/images/bg-pattern-2.svg), url(/images/image-hero.webp);
+    background-repeat: no-repeat;
+    background-position: -90px 100px, 850px 280px, 280px 305px;
+    background-size: 200px 150px, 150px 100px, 400px;
+    /* border-bottom-left-radius: 250px 100px;
+    border-bottom-right-radius: 100px 25px; */
+    /* overflow: hidden;
+    position: relative; */
+
+}
+
+/* .header:before {
+    content: "";
+    position: absolute;
+    height: 80px;
+    left: -10%;
+    right: -10%;
+    border-radius: 50%;
+    bottom: -25px;
+    background: #FCF8FF;
+}  */
+
+
+.logo-image {
+    padding: 30px 0px 0px 50px;
+}
+
+.logo {
+    width: 940px;
+    margin: 0px;
+    display: flex;
+
+}
+.logo .text h1 a {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #44FFA1;
+    color: #FFFFFF;
+    font-family: "Manrope", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    padding-left: 650px;
+    
+}
+
+#mission {
+    text-align: center;
+    width: 300px;
+    padding: 0px;
+    margin: 0px auto;
+    text-underline-offset: 5px;  
+    color: #FFFFFF;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+#mission u {
+    text-decoration-color: #44FFA1;
+}
+
+#mission input {
+    background-color: #44FFA1;
+    height: 40px;
+}
+
+#mission input[value] {
+    color: #24053E;
+    font-size: 10px;
+}
+
+.wrapper-1 {
+    width: 940px;
+    margin: 0px auto;
+    background-color: #FCF8FF;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 50px;
+    /* background-image: url(/images/image-hero.webp);
+    background-repeat: no-repeat;
+    background-position: 330px 0px ;
+    background-size: 200px 100px; */
+
+} 
+
+.wrapper-1 .grid {
+    width: 200px;
+    float: left;
+    padding: 40px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* .wrapper-1:after {
+    content: "";
+    position: absolute;
+    height: 80px;
+    left: -10%;
+    right: -10%;
+    border-radius: 50%;
+    bottom: -25px;
+    background: #FCF8FF;
+
+}  */
+.font-1 {
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #24053E;
+    border-radius: 50%;
+    border: 1px solid #24053E;
+    width: 14px;
+    height: 14px;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.topic-font {
+    padding-top: 30px;
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #24053E;
+}
+
+.normal-font {
+    font-family: "Manrope", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #24053E;
+}
+
+.wrapper-2 {
+    background-color: #FFFFFF;
+    width: 940px;
+    height: 600px;
+    margin: 0px auto;
+}
+
+.founder-image {
+    padding: 100px 0px 0px 100px;
+    text-align: center;
+    width: 200px;
+    float: left;
+    
+}
+
+
+.message {
+    margin: 210px 0px 0px 20px;
+    background-color: #24053E;
+    color: #FFFFFF;
+    width: 500px;
+    height: 280px;
+    text-align: left;
+    float: left;
+    padding: 15px;
+    background-image: url(/images/bg-pattern-3.svg);
+    background-repeat: no-repeat;
+    background-position: 450px 230px;
+    background-size: 100px 100px;
+
+}
+
+.font-2 {
+    font-family: "Fraunces", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+    
+}
+
+.font-3 {
+    font-family: "Manrope", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    
+}
+
+
+.message input {
+    background-color: #44FFA1;
+    height: 30px;
+}
+
+.message input[value] {
+    color: #24053E;
+    font-size: 10px;
+}
+
+.footer {
+    width: 200px;
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+}
+
+
+.footer .icons {
+    padding-right: 20px;
+} 

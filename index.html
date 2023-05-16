@@ -4,58 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Workit</title>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="images/logo-light.svg" alt="Logo Light">
-            <h1><a href="#">Apply for access</a></h1>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div>
+                    <img class= "logo-image" src="images/logo-light.svg" alt="Logo Light" width="95.76" height="24.61">
+                </div>
+                <div class="text">
+                    <h1><a href="#">Apply for access</a></h1>
+                </div>    
+            </div>
+            <div id="mission">
+                <p>Data <u>tailored</u> to your needs.</p>
+                <form action="register.php" method="post">
+                    <input type="submit" value="Learn more">
+                </form>        
+            </div>
+            
         </div>
-        <div id="mission">
-            <p>Data <u>tailored</u> to your needs.</p>
+    
+        <div class="wrapper-1">
+            <div class="grid">
+                <p class="font-1">1</p>
+                <p class="topic-font">Actionable insights</p>
+                <p class="normal-font">Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+            </div>
+            <div class="grid">
+                <p class="font-1">2</p>
+                <p class="topic-font">Data-driven decisions</p>
+                <p class="normal-font">Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
+            </div>
+            <div class="grid">
+                <p class="font-1">3</p>
+                <p class="topic-font">Always Affordable</p>
+                <p class="normal-font">Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
+            </div>
         </div>
-        <form action="register.php" method="post">
-            <input type="submit" value="Learn more">
-        </form>
+        <div class="wrapper-2">
+            <div class="founder-image">
+                <img src="images/image-founder.webp" alt="Founder" width="277" height="277">
+            </div>
+            <div class="message">
+                <h2 class="font-2">Be the first to test</h2>
+                <p class="font-3">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
+                <form action="register.php" method="post">
+                    <input type="submit" value="Apply for access">
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <img class="footer-img" src="images/logo-dark.svg" alt="Logo dark">
+            <p>
+                <img class="icons" src="images/icon-facebook.svg" alt="facebook">
+                <img class="icons" src="images/icon-twitter.svg" alt="twitter">
+                <img class="icons" src="images/icon-instagram.svg" alt="instagram">
+            </p>
+    
+        </div>
     </div>
-
-    <div class="wrapper-1">
-        <div class="grid">
-            <p>1</p>
-            <p>Actionable insights</p>
-            <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
-        </div>
-        <div class="grid">
-            <p>2</p>
-            <p>Data-driven decisions</p>
-            <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
-        </div>
-        <div class="grid">
-            <p>3</p>
-            <p>Always Affordable</p>
-            <p>Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
-        </div>
-    </div>
-    <div class="wrapper-2">
-        <img src="images/web-founder.webp" alt="Founder">
-        <p>
-            <h2>Be the first to test</h2>
-            <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
-            <form action="register.php" method="post">
-                <input type="submit" value="Apply for access">
-            </form>
-        </p>
-    </div>
-    <div class="footer">
-        <img src="images/logo-dark.svg" alt="Logo dark">
-        <p class="icons">
-            <img src="images/icon-facebook.svg" alt="facebook">
-            <img src="images/icon-twitter.svg" alt="twitter">
-            <img src="images/icon-instagram.svg" alt="instagram">
-        </p>
-
-    </div>
+    
 
     
 </body>
