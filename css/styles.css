@@ -20,27 +20,11 @@ body {
     height: 500px;
     background-color: #24053E;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-    background-image: url(/images/bg-pattern-1.svg), url(/images/bg-pattern-2.svg), url(/images/image-hero.webp);
+    background-image: url(/images/bg-pattern-1.svg), url(/images/bg-pattern-2.svg);
     background-repeat: no-repeat;
-    background-position: -90px 100px, 850px 280px, 280px 305px;
-    background-size: 200px 150px, 150px 100px, 400px;
-    /* border-bottom-left-radius: 250px 100px;
-    border-bottom-right-radius: 100px 25px; */
-    /* overflow: hidden;
-    position: relative; */
-
+    background-position: -90px 100px, 850px 280px;
+    background-size: 200px 150px, 150px 100px;
 }
-
-/* .header:before {
-    content: "";
-    position: absolute;
-    height: 80px;
-    left: -10%;
-    right: -10%;
-    border-radius: 50%;
-    bottom: -25px;
-    background: #FCF8FF;
-}  */
 
 
 .logo-image {
@@ -51,6 +35,7 @@ body {
     width: 940px;
     margin: 0px;
     display: flex;
+   
 
 }
 .logo .text h1 a {
@@ -65,7 +50,11 @@ body {
     line-height: 32px;
     letter-spacing: -0.18px;
     padding-left: 650px;
+    position: relative;
     
+}
+.logo .text h1 a:active {
+    color: #44FFA1;
 }
 
 #mission {
@@ -78,6 +67,7 @@ body {
     font-family: "Fraunces", Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 40px;
+;
 
 }
 
@@ -92,43 +82,38 @@ body {
 
 #mission input[value] {
     color: #24053E;
-    font-size: 10px;
+    font-size: 15px;
+}
+
+#mission input[value]:active {
+    color: #44FFA1;
+    background-color: #24053E;
+    font-size: 15px;
+    border-color: #44FFA1;
+}
+
+.image-overlap {
+    display: block;
+    margin: 50px auto;
+    
 }
 
 .wrapper-1 {
     width: 940px;
     margin: 0px auto;
     background-color: #FCF8FF;
-    height: 400px;
-    position: relative;
-    overflow: hidden;
-    padding: 50px 50px;
-    /* background-image: url(/images/image-hero.webp);
-    background-repeat: no-repeat;
-    background-position: 330px 0px ;
-    background-size: 200px 100px; */
+    height: 500px;
 
 } 
 
 .wrapper-1 .grid {
     width: 200px;
     float: left;
-    padding: 40px;
+    padding: 150px 50px 20px 50px;
     margin: 0px auto;
     text-align: center;
 }
 
-/* .wrapper-1:after {
-    content: "";
-    position: absolute;
-    height: 80px;
-    left: -10%;
-    right: -10%;
-    border-radius: 50%;
-    bottom: -25px;
-    background: #FCF8FF;
-
-}  */
 .font-1 {
     font-family: "Fraunces", Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -184,11 +169,11 @@ body {
     height: 280px;
     text-align: left;
     float: left;
-    padding: 15px;
+    padding: 30px;
     background-image: url(/images/bg-pattern-3.svg);
     background-repeat: no-repeat;
-    background-position: 450px 230px;
-    background-size: 100px 100px;
+    background-position: 400px 260px;
+    background-size: 120px 130px;
 
 }
 
@@ -217,7 +202,15 @@ body {
 
 .message input[value] {
     color: #24053E;
+    font-size: 15px;
+}
+
+
+.message input[value]:active {
+    color: #44FFA1;
+    background-color: #24053E;
     font-size: 10px;
+    border-color: #44FFA1;
 }
 
 .footer {
@@ -229,5 +222,15 @@ body {
 
 
 .footer .icons {
-    padding-right: 20px;
+    padding-right: 15px;
 } 
+
+/* Viewports for tablets */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    
+}
+
+/* Viewports for mobile phones */
+@media only screen and (min-device-width: 321px) and (max-device-width: 480px) {
+    
+}
